@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#14479B"/>
+  <!-- Ticket body with notched sides, angled like the source logo -->
+  <g transform="rotate(-8 32 32)">
+    <path d="M12 22 h40 a4 4 0 0 0 4 4 v3 a3.2 3.2 0 0 0 0 6.4 v3 a4 4 0 0 0 -4 4 h-40 a4 4 0 0 0 -4 -4 v-3 a3.2 3.2 0 0 0 0 -6.4 v-3 a4 4 0 0 0 4 -4 z" fill="#F57C1F"/>
+    <!-- Train glyph -->
+    <rect x="15" y="27" width="13" height="9.5" rx="2.6" fill="#FFFFFF"/>
+    <rect x="17.4" y="29.2" width="8.2" height="4" rx="1" fill="#F57C1F"/>
+    <circle cx="18.2" cy="38.6" r="1.5" fill="#FFFFFF"/>
+    <circle cx="24.8" cy="38.6" r="1.5" fill="#FFFFFF"/>
+    <rect x="14.2" y="41.2" width="14.6" height="1.7" rx="0.85" fill="#FFFFFF"/>
+    <!-- Detail lines -->
+    <rect x="33" y="29.5" width="17" height="2.6" rx="1.3" fill="#FFFFFF"/>
+    <rect x="33" y="35" width="17" height="2.6" rx="1.3" fill="#FFFFFF"/>
+  </g>
+</svg>

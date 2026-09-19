@@ -5,11 +5,14 @@ export default {
     extend: {
       colors: {
         rail: {
-          night: '#0F1F38',
+          // night: '#0F1F38',
+          night: '#14479B', 
+          amber: '#F57C1F', 
+          amberdark: '#D9690F',
           nightlight: '#1B3358',
           platform: '#F7F5F0',
-          amber: '#D98E2B',
-          amberdark: '#B9761D',
+          // amber: '#D98E2B',
+          // amberdark: '#B9761D',
           charcoal: '#1F2937',
           muted: '#6B7280',
           confirmed: '#2F7D5C',

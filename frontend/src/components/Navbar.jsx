@@ -9,11 +9,17 @@ export default function Navbar() {
   return (
     <header className="border-b border-rail-line bg-rail-platform">
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2">
+        {/* <Link to="/" className="flex items-center gap-2">
           <span className="font-mono text-lg font-semibold tracking-tight text-rail-night">
             RailBook
           </span>
-        </Link>
+        </Link> */}
+        <Link to="/" className="flex items-center gap-2">
+  <img src="/emblem.png" alt="" className="h-8 w-auto" />
+  <span className="font-mono text-lg font-semibold tracking-tight text-rail-night">
+    Rail<span className="text-rail-amber">Book</span>
+  </span>
+</Link>
 
         <nav className="flex items-center gap-6 text-sm">
           {user ? (
